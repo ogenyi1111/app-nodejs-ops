@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/ogenyi1111/app-java.git', branch: 'main'
+                git url: 'https://github.com/ogenyi1111/app-nodejs.git', branch: 'main'
             }
         }
 
